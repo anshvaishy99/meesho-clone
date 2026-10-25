@@ -1,0 +1,10 @@
+.admin-warn{background:#fdecec;border:1px solid #f1b0b2;color:#a61b1e;border-radius:9px;padding:10px 14px;font-size:.85rem;margin-bottom:16px}
+.table-wrap{overflow-x:auto;background:#fff;border:1px solid var(--border);border-radius:var(--radius)}
+.tbl{width:100%;border-collapse:collapse;font-size:.88rem;min-width:640px}
+.tbl th,.tbl td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--border);vertical-align:middle}
+.tbl th{background:var(--pink-light);font-weight:700;white-space:nowrap}
+.tbl input[type=number]{width:90px;padding:6px;border:1.5px solid var(--border);border-radius:7px}
+.tbl img{width:40px;height:40px;border-radius:6px;object-fit:cover}
+.admin-form{margin-bottom:18px}
+.row-actions{display:flex;gap:6px;flex-wrap:wrap}
+.inline-select{padding:6px;border:1.5px solid var(--border);border-radius:7px;font-family:inherit}

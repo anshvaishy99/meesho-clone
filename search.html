@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search | Meesho Clone</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<div id="site-header"></div>
+<main class="container" id="app">
+<h1 class="page-title">Search</h1>
+<div class="suggest-box"><form id="search-form" class="search-form" style="max-width:none" role="search"><input id="search-input" type="search" placeholder="Search by name, category, description or keyword" autocomplete="off" aria-label="Search products"><button type="submit" aria-label="Search">🔍</button></form><div class="suggestions hidden" id="suggestions"></div></div>
+<div id="recent-box" class="section" style="margin-top:14px"></div><div id="search-summary" class="muted" style="margin-bottom:10px"></div><div class="product-grid" id="results"></div>
+</main>
+<div id="site-footer"></div>
+<script src="js/products.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/common.js"></script>
+<script src="js/search.js"></script>
+</body>
+</html>

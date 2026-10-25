@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Addresses | Meesho Clone</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<div id="site-header"></div>
+<main class="container" id="app">
+<h1 class="page-title">Saved Addresses</h1><div id="addr-list" class="addr-grid"></div>
+<div class="panel narrow" style="margin:0;max-width:720px"><h2 id="addr-form-title">Add new address</h2><form id="addr-form" novalidate><div id="addr-fields"></div>
+<label class="opt"><input type="checkbox" id="addr-default"> Set as default address</label>
+<div style="display:flex;gap:10px;margin-top:12px"><button class="btn" type="submit" id="addr-submit">Save address</button><button class="btn btn-outline hidden" type="button" id="addr-cancel">Cancel edit</button></div></form></div>
+</main>
+<div id="site-footer"></div>
+<script src="js/products.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/common.js"></script>
+<script src="js/addresses.js"></script>
+</body>
+</html>

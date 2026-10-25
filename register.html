@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Register | Meesho Clone</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<div id="site-header"></div>
+<main class="container" id="app">
+<div class="narrow panel"><h1 class="page-title">Create Account</h1>
+<div class="notice"><b>Demo only.</b> Your details and a salted demo hash of your password are stored in this browser's localStorage. Do not reuse a real password.</div>
+<div id="form-msg" class="form-msg error hidden" role="alert"></div>
+<form id="register-form" novalidate>
+<div class="field"><label for="name">Full name</label><input id="name" autocomplete="name"><small class="err" id="name-err"></small></div>
+<div class="grid-2"><div class="field"><label for="email">Email</label><input id="email" type="email" autocomplete="email"><small class="err" id="email-err"></small></div>
+<div class="field"><label for="phone">Phone number</label><input id="phone" inputmode="numeric" maxlength="10" autocomplete="tel"><small class="err" id="phone-err"></small></div></div>
+<div class="field"><label for="password">Password</label><div class="pw-wrap"><input id="password" type="password" autocomplete="new-password"><button type="button" class="pw-toggle" data-toggle="password">Show</button></div><div class="strength"><i id="strength-bar"></i></div><small id="strength-text" class="muted"></small><small class="err" id="password-err"></small></div>
+<div class="field"><label for="confirm">Confirm password</label><div class="pw-wrap"><input id="confirm" type="password" autocomplete="new-password"><button type="button" class="pw-toggle" data-toggle="confirm">Show</button></div><small class="err" id="confirm-err"></small></div>
+<button class="btn btn-block" type="submit">Register</button></form>
+<p style="text-align:center">Already registered? <a href="login.html" style="color:var(--pink);font-weight:600">Login</a></p></div>
+</main>
+<div id="site-footer"></div>
+<script src="js/products.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/common.js"></script>
+<script src="js/auth.js"></script>
+</body>
+</html>
